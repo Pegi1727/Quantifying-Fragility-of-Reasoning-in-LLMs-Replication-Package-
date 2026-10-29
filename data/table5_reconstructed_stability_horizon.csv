@@ -1,0 +1,4 @@
+model,reported_lambda,reported_horizon_g_star,exact_horizon_ln2_over_lambda
+Llama-2-7B,0.220000,3.100000,3.150669
+Llama-2-13B,0.160000,4.300000,4.332170
+Llama-2-70B,0.100000,6.900000,6.931472

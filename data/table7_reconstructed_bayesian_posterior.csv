@@ -1,0 +1,4 @@
+model,posterior_mean_lambda,hdi_lower,hdi_upper
+Llama-2-7B,0.216,0.195,0.237
+Llama-2-13B,0.187,0.166,0.209
+Llama-2-70B,0.165,0.148,0.182

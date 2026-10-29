@@ -1,0 +1,7 @@
+Model,Dataset,Stability_Horizon_n0
+Model_Small,GSM8K,3.6
+Model_Small,MATH,5.81
+Model_Medium,GSM8K,5.99
+Model_Medium,MATH,5.98
+Model_Large,GSM8K,5.32
+Model_Large,MATH,4.44

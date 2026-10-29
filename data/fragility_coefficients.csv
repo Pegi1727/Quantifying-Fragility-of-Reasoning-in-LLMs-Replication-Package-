@@ -1,0 +1,7 @@
+Model,Dataset,Fragility_Coefficient_k
+Model_Small,GSM8K,0.1632
+Model_Small,MATH,0.1012
+Model_Medium,GSM8K,0.0982
+Model_Medium,MATH,0.0983
+Model_Large,GSM8K,0.1104
+Model_Large,MATH,0.1325

@@ -1,0 +1,14 @@
+{
+  "description": "This dataset is constructed to match published means and confidence intervals; it is not original experimental outputs",
+  "source_table": "Table 3 (means and ci95_halfwidth)",
+  "assumptions": {
+    "trajectories_per_model_generation": 50,
+    "confidence_interval": "CI interpreted as mean ± halfwidth",
+    "normality": "Underlying values assumed normally distributed before truncation",
+    "truncation": "Values truncated to the interval [0,1]; location calibrated iteratively to match each reported mean within 1e-3",
+    "independence": "Trajectory values treated as independent within each model-generation group",
+    "standard_deviation": "Computed as SE*sqrt(n), where SE=ci95_halfwidth/1.96"
+  },
+  "random_seed": 240517,
+  "checks": "Generated confidence-interval halfwidths are computed as 1.96*sample_sd/sqrt(n), with sample_sd using ddof=1."
+}

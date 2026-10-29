@@ -1,0 +1,4 @@
+model,rpe0,reported_lambda,reported_r2,fitted_lambda_loglinear,original_scale_r2
+Llama-2-7B,0.950000,0.220000,0.970000,0.199446,0.995161
+Llama-2-13B,0.960000,0.160000,0.980000,0.126150,0.997522
+Llama-2-70B,0.980000,0.100000,0.990000,0.059954,0.998670

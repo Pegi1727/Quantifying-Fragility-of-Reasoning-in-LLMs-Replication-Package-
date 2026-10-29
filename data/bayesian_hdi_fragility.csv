@@ -1,0 +1,7 @@
+Model,Dataset,Posterior_Mean_k,HDI_Lower,HDI_Upper
+Model_Small,GSM8K,0.1632,0.1432,0.1832
+Model_Small,MATH,0.1012,0.0812,0.1212
+Model_Medium,GSM8K,0.0982,0.0782,0.1182
+Model_Medium,MATH,0.0983,0.0783,0.1183
+Model_Large,GSM8K,0.1104,0.0904,0.1304
+Model_Large,MATH,0.1325,0.1125,0.1525
