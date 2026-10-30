@@ -44,6 +44,40 @@ All high-resolution (300 DPI) publication-ready figures are located in the [`fig
 * [`raw_like_distribution_overview.png`](./figures/raw_like_distribution_overview.png) – Statistical distribution overview of raw-like records.
 
 ---
+## 📊 Key Figures & Visualizations
+
+All visualizations and graphical assets are original works created by Dr. Pegah Merrikhi and programmatically generated using Python (`matplotlib` / `seaborn`). Source code is available in `scripts/generate_figures.py`.
+
+### 1. Graphical Abstract
+![Graphical Abstract](figures/graphical_abstract.png)
+*Figure 1: Conceptual overview of recursive multi-generation prompt chains, semantic divergence tracking via RPE, and exponential decay.*
+
+---
+
+### 2. Critical Stability Horizon ($g^*$)
+<p align="center">
+  <img src="figures/stability_horizon_bar.png" width="80%" alt="Critical Stability Horizon Across Model Scales" />
+</p>
+
+*Figure 2: Empirical Critical Stability Horizon ($g^*$) across Llama-2 architectures, indicating generations before 50% semantic reasoning fidelity loss.*
+
+---
+
+### 3. Empirical vs. Fitted RPE Trajectories
+<p align="center">
+  <img src="figures/rpe_trajectories_reported_vs_fit.png" width="80%" alt="RPE Decay Trajectories" />
+</p>
+
+*Figure 3: Semantic fidelity decay profiles across generations ($g$) showing exponential decay governed by parameter $\lambda$.*
+
+---
+
+### 4. Parameter Validation & Record Distributions
+| Parameter Comparison ($\lambda$) | Raw-like Distribution Profile |
+| :---: | :---: |
+| ![Parameter Comparison](figures/reconstructed_params_comparison.png) | ![Distribution Overview](figures/raw_like_distribution_overview.png) |
+| *Figure 4: Comparison of reported vs. reconstructed fragility coefficients ($\lambda$).* | *Figure 5: Empirical distribution and kernel density estimation of RPE metric records.* |
+-----------
 
 ## 🔬 Conclusions
 
