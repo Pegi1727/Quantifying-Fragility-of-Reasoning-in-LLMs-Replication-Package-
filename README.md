@@ -90,7 +90,7 @@ bibtex
 @misc{merrikhi2024quantifying,
   author       = {Merrikhi, Pegah},
   title        = {Quantifying the Fragility of Reasoning in Successive Generations of Large Language Models: Replication Package and Empirical Datasets},
-  year         = {2024},
+  year         = {2026},
   publisher    = {Zenodo},
   version      = {v1.00},
   doi          = {10.5281/zenodo.23777125},
