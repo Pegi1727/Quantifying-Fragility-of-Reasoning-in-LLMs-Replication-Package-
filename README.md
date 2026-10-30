@@ -86,6 +86,19 @@ All visualizations and graphical assets are original works created by Dr. Pegah 
 3. **Predictive Equity as a Diagnostic Tool:** RPE and the critical stability horizon provide robust quantitative metrics for auditing multi-step reasoning reliability in autoregressive architectures.
 
 ---
+bibtex
+@misc{merrikhi2024quantifying,
+  author       = {Merrikhi, Pegah},
+  title        = {Quantifying the Fragility of Reasoning in Successive Generations of Large Language Models: Replication Package and Empirical Datasets},
+  year         = {2024},
+  publisher    = {Zenodo},
+  version      = {v1.00},
+  doi          = {10.5281/zenodo.23777125},
+  url          = {https://doi.org/10.5281/zenodo.23777125}
+}
+---
+APA Format
+Merrikhi, P. (2024). Quantifying the Fragility of Reasoning in Successive Generations of Large Language Models: Replication Package and Empirical Datasets (Version v1.00) [Data set and software]. Zenodo. https://doi.org/10.5281/zenodo.23777125
 
 ## 📂 Repository Structure
 ```text
